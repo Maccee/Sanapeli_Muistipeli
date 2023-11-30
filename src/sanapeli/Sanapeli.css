@@ -1,0 +1,51 @@
+
+body.pulse {
+  animation: pulse 0.2s ease-out;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: initial;
+  }
+
+  50% {
+    background-color: rgba(255, 0, 0, 0.5);
+  }
+
+  100% {
+    background-color: initial;
+  }
+}
+
+.sanapeliimg {
+  width: 100%;
+  border-radius: 3rem;
+  
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.sanapelibutton {
+  
+  width: 4rem;
+  height: 4rem;
+  background-color: #b2d8b2;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.sanapelicontainer {
+  
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
